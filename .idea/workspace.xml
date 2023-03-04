@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7d2215a-2c1a-48d6-bfde-60e37af90c03" name="Changes" comment="maven project">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework_Registration/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="f7d2215a-2c1a-48d6-bfde-60e37af90c03" name="Changes" comment="testng">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework_Registration/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework_Registration/Registration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,26 +41,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/dell/Documents/skillo_auto_test/Automation_tests_projects/src/test/java/homework_Registration",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dell/Documents/skillo_auto_test/Automation_tests_projects/src/test/java/homework_Registration&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dell\Documents\skillo_auto_test\Automation_tests_projects\src\test\java" />
       <recent name="C:\Users\dell\Documents\skillo_auto_test\Automation_tests_projects\src\test" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.Registration.registerUser">
+    <configuration name="Registration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework_Registration.Registration" />
+      <module name="Automation_tests_projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_Registration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Registration (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_tests_projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_Registration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework_Registration" />
+      <option name="MAIN_CLASS_NAME" value="homework_Registration.Registration" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Registration" type="TestNG">
       <module name="Automation_tests_projects" />
       <shortenClasspath name="NONE" />
@@ -83,6 +109,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Registration.registerUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_tests_projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_Registration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework_Registration" />
+      <option name="MAIN_CLASS_NAME" value="homework_Registration.Registration" />
+      <option name="METHOD_NAME" value="registerUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Registration.testMethod1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_tests_projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework_Registration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework_Registration" />
+      <option name="MAIN_CLASS_NAME" value="homework_Registration.Registration" />
+      <option name="METHOD_NAME" value="testMethod1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Registration.registerUser" />
+        <item itemvalue="TestNG.Registration (1)" />
+        <item itemvalue="TestNG.Registration.testMethod1" />
+        <item itemvalue="Application.Registration" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -107,12 +177,31 @@
       <option name="project" value="LOCAL" />
       <updated>1677865649373</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="testng">
+      <created>1677880404760</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677880404760</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="maven project" />
-    <option name="LAST_COMMIT_MESSAGE" value="maven project" />
+    <MESSAGE value="testng" />
+    <option name="LAST_COMMIT_MESSAGE" value="testng" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/homework_Registration/Registration.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
