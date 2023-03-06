@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 //1.Navigate to Login page
 //2.Click on Register
 //3.Validate that url has changed to "http://training.skillo-bg.com:4200/users/register"
-//4.Validate that the Sign up header is shown
+//4.Validate that the Sign-up header is shown
 //5.Enter valid username
 //6.Enter invalid email (without @,)
 //7.Check presented string "Email invalid" on email field
@@ -26,6 +26,7 @@ import java.util.concurrent.TimeUnit;
 //10.Click on Sign in button
 //11.Validate that appear popup message "Registration failed"
 //12.Validate that the user is still on Register page , check the url "http://training.skillo-bg.com:4200/users/register"
+
 
 public class RegistrationInvalidEmail {
     ChromeDriver driver;
@@ -42,9 +43,10 @@ public class RegistrationInvalidEmail {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.get(loginUrl);
     }
+    @Parameters({"username","email","password"})
 
     @Test
-    public void emailWithoutDomain() {
+    public void emailWithoutDomain(String username,String password, String email) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
         System.out.println("1.Navigate to Login page");
@@ -62,11 +64,11 @@ public class RegistrationInvalidEmail {
 
         System.out.println("5.Enter valid username");
         WebElement usernameField = driver.findElement(By.xpath("//input[@name='username']"));
-        enterTextField(usernameField, "sisi_4440");
+        enterTextField(usernameField, username);
 
         System.out.println("6.Enter invalid email (without domain)");
         WebElement emailField = driver.findElement(By.xpath("//input[@placeholder=\"email\"]"));
-        enterInvalidEmail(emailField, "qa@");
+        enterInvalidEmail(emailField, email);
 
         System.out.println("7.Check presented string \"Email invalid\" on email field");
         WebElement invalidEmailFeedBack = driver.findElement(By.xpath("//input/following-sibling::*"));
@@ -74,11 +76,11 @@ public class RegistrationInvalidEmail {
 
         System.out.println("8.Enter valid password");
         WebElement passwordField = driver.findElement(By.cssSelector("input#defaultRegisterFormPassword"));
-        enterTextField(passwordField, "1043a3e5");
+        enterTextField(passwordField, password);
 
         System.out.println("9.Confirm password");
         WebElement confirmPasswordField = driver.findElement(By.cssSelector("input#defaultRegisterPhonePassword"));
-        enterTextField(confirmPasswordField, "1043a3e5");
+        enterTextField(confirmPasswordField, password);
 
         System.out.println("10.Click on Sign in button");
         wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("button#sign-in-button")));
@@ -88,14 +90,6 @@ public class RegistrationInvalidEmail {
         WebElement toastMessage=wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("toast-message")));
         String toastMessageText= toastMessage.getText().trim();
         Assert.assertEquals(toastMessageText,"Registration failed!","Successful register!");
-
-    }
-    @Test
-    public void emptyEmailField(){
-
-    }
-    @Test
-    public void emailWithoutA(){
 
     }
 
@@ -133,5 +127,7 @@ public class RegistrationInvalidEmail {
     }
 
 
+    public static void main(String[] arg) {
+    }
 }
 

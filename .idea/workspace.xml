@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7d2215a-2c1a-48d6-bfde-60e37af90c03" name="Changes" comment="test_invalid_email">
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework_Registration/RegistrationInvalidEmail.java" afterDir="false" />
+    <list default="true" id="f7d2215a-2c1a-48d6-bfde-60e37af90c03" name="Changes" comment="test_invalid_email_without_domain">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework_Registration/Registration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework_Registration/RegistrationInvalidEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework_Registration/RegistrationInvalidEmail.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
       <recent name="C:\Users\dell\Documents\skillo_auto_test\Automation_tests_projects\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RegistrationInvalidEmail.emailWithoutDomain">
+  <component name="RunManager" selected="TestNG.RegistrationInvalidEmail">
     <configuration name="RegistrationInvalidEmail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework_Registration.RegistrationInvalidEmail" />
       <module name="Automation_tests_projects" />
@@ -95,16 +94,30 @@
     </configuration>
     <configuration name="RegistrationInvalidEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_tests_projects" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="homework_Registration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="homework_Registration" />
       <option name="MAIN_CLASS_NAME" value="homework_Registration.RegistrationInvalidEmail" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties>
+        <property name="password" value="1043a3e5" />
+        <property name="email" value="o9812@" />
+        <property name="username" value="ikigai" />
+      </properties>
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,29 +141,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationInvalidEmail.testMethod1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_tests_projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework_Registration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homework_Registration" />
-      <option name="MAIN_CLASS_NAME" value="homework_Registration.RegistrationInvalidEmail" />
-      <option name="METHOD_NAME" value="testMethod1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.RegistrationInvalidEmail" />
+      <item itemvalue="TestNG.Registration" />
+      <item itemvalue="TestNG.RegistrationInvalidEmail" />
+      <item itemvalue="TestNG.RegistrationInvalidEmail.emailWithoutDomain" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.RegistrationInvalidEmail.emailWithoutDomain" />
         <item itemvalue="TestNG.RegistrationInvalidEmail" />
-        <item itemvalue="TestNG.RegistrationInvalidEmail.testMethod1" />
         <item itemvalue="Application.RegistrationInvalidEmail" />
       </list>
     </recent_temporary>
@@ -192,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677948579840</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test_invalid_email_without_domain">
+      <created>1677957448357</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677957448357</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -200,17 +207,7 @@
     <MESSAGE value="maven project" />
     <MESSAGE value="testng" />
     <MESSAGE value="test_invalid_email" />
-    <option name="LAST_COMMIT_MESSAGE" value="test_invalid_email" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/homework_Registration/RegistrationInvalidEmail.java</url>
-          <line>116</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="test_invalid_email_without_domain" />
+    <option name="LAST_COMMIT_MESSAGE" value="test_invalid_email_without_domain" />
   </component>
 </project>
